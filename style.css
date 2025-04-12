@@ -1,6 +1,6 @@
-
 /* Remove margens/paddings padrão */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 
 /* Navbar fixa no topo */
 nav.navbar {
-  background-color: #fc8585 !important;  
+  background-color: #fc8585 !important;
   position: fixed;
   top: 0;
   width: 100%;
@@ -31,10 +31,92 @@ nav.navbar {
   color: #ffc86d;
 }
 
-/* <------------------ Sessões ------------------> */
+/* < ------------- Estilos de texto--------------- > */
+
+/* Fontes principais */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  /* Títulos das seções */
+  .section-title {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+
+  h3{
+    font-size: 80px;
+    color: #fc8585;
+  }
+  
+  /* Parágrafos */
+  p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Centralizar ícones e textos */
+  #tecnologias img {
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  
 
 
-  
-  
-  
+/* <------------------ Sobre ---------------------> */
 
+.text-justify {
+  text-align: justify;
+}
+
+.total{
+    height: 100vh;
+    align-content: center;
+}
+
+/* <------------------- Tecnologias ------------------> */
+.tech-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-icon img {
+    width: 90%;
+    height: auto;
+  }
+  
+  .tech-icon:hover {
+    transform: scale(1.1);
+  }
+
+
+/* <------------------ Projetos ------------------> */
+
+/* Estilo dos botões */
+.btn-primary {
+  background-color: #fc8585; /* Cor de fundo personalizada */
+  border-color: #fc8585; /* Cor da borda personalizada */
+  color: #f6eadb; /* Cor do texto do botão */
+}
+
+.btn-primary:hover {
+  background-color: #ffc86d; /* Cor do fundo no hover */
+  border-color: #ffc86d; /* Borda no hover */
+}
+
+/* Background da seção ocupando 100% da largura da tela */
+main {
+  background-color: #85cbd9;
+  width: 100%;
+}
