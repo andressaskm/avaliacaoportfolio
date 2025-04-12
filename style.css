@@ -1,0 +1,40 @@
+
+/* Remove margens/paddings padrão */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Espaço para não cobrir conteúdo ao usar navbar fixa */
+body {
+  padding-top: 70px; /* ajuste conforme altura real da navbar */
+}
+
+/* Navbar fixa no topo */
+nav.navbar {
+  background-color: #fc8585 !important;  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Estilo dos links da navbar */
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f6eadb;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc86d;
+}
+
+/* <------------------ Sessões ------------------> */
+
+
+  
+  
+  
+
