@@ -58,8 +58,6 @@ body {
     display: block;
     margin: 0 auto 10px auto;
   }
-  
-
 
 /* <------------------ Sobre ---------------------> */
 
@@ -93,10 +91,9 @@ body {
   }
 
   #tecnologias{
-    min-height: 100vh;
+    min-height: 60vh;
   }
   
-
 /* <------------------ Projetos ------------------> */
 
 .btn-primary {
@@ -120,7 +117,6 @@ main {
   max-width: 400px;
   width: 100%;
 }
-
 
 /* <--------------------- Footer ----------------------> */
 
