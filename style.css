@@ -68,7 +68,7 @@ body {
 }
 
 .total{
-    height: 100vh;
+    min-height: 100vh;
     align-content: center;
 }
 
@@ -93,10 +93,9 @@ body {
   }
 
   #tecnologias{
-    height: 80vh;
+    min-height: 100vh;
   }
   
-
 
 /* <------------------ Projetos ------------------> */
 
@@ -113,13 +112,32 @@ body {
 
 main {
   background-color: #85cbd9;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .card-custom {
   max-width: 400px;
+  width: 100%;
 }
+
+
+/* <--------------------- Footer ----------------------> */
+
+#link1:hover{
+ color: #fc8585;
+ transition: color 0.3s ease;  
+}
+
+#link2:hover{
+  color: #fc8585;
+  transition: color 0.3s ease;  
+ }
+
+ #link3:hover{
+  color: #fc8585;
+  transition: color 0.3s ease;  
+ }
 
 
 
